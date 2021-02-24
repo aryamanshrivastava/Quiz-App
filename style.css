@@ -1,6 +1,6 @@
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: Literata, serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #222;
 }
 
@@ -20,6 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: hsl(var(--hue), 100%, 25%);
+
 }
 
 body.correct {
