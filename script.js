@@ -78,39 +78,39 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'The great Victoria Desert is located in',
+    question: 'Google Inc. was founded in ____ ?',
     answers: [
-      { text: 'Canada', correct: false },
-      { text: 'West Africa', correct: false },
-      { text: 'Australia', correct: true },
-      { text: 'North America', correct: false }
+      { text: '1995', correct: false },
+      { text: '1989', correct: false },
+      { text: '1998', correct: true },
+      { text: '2000', correct: false }
     ]
   },
   {
-    question: 'The landmass of which of the following continent is the least?',
+    question: ' What is the correct URL link to access your Google account?',
     answers: [
-      { text: 'Africa', correct: false },
-      { text: 'Asia', correct: false },
-      { text: 'Australia', correct: true },
-      { text: 'Europe', correct: false }
+      { text: 'https://yahoo.com', correct: false },
+      { text: 'https://hotmail.com/SignUp', correct: false },
+      { text: 'https://accounts.google.com/SignUpWithoutGmail?hl=e', correct: true },
+      { text: 'None of the above', correct: false }
     ]
   },
   {
-    question: 'Which one of the following is Tropical grassland?',
+    question: 'Google hangout was developed by?',
     answers: [
-      { text: 'Tiaga', correct: false },
-      { text: 'Savannah', correct: true },
-      { text: 'Pampas', correct: false },
-      { text: 'Pairies', correct: false }
+      { text: 'Google +', correct: true },
+      { text: 'Google Talk', correct: false },
+      { text: 'Hangouts', correct: false },
+      { text: 'Allo', correct: false }
     ]
   },
   {
-    question: 'The temperature increases rapidly after',
+    question: 'Which is not a colour of google?',
     answers: [
-      { text: 'Inosphere', correct: true },
-      { text: 'Exosphere', correct: false },
-      { text: 'Stratosphere', correct: false },
-      { text: 'Troposphere', correct: false }
+      { text: 'Green', correct: false },
+      { text: 'Red', correct: false },
+      { text: 'Peach', correct: false },
+      { text: 'Orange', correct: true }
     ]
   }
 ]
