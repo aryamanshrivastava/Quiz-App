@@ -1,7 +1,7 @@
 *, *::before, *::after {
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
-  color: #222;
+  color: #000000;
 }
 
 :root {
@@ -19,7 +19,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-color: hsl(var(--hue), 100%, 25%);
+  background-color: hsl(var(--hue), 100%, 45%);
 
 }
 
@@ -50,10 +50,10 @@ body.wrong {
 .btn {
   --hue: var(--hue-neutral);
   border: 1px solid hsl(var(--hue), 100%, 30%);
-  background-color: hsl(var(--hue), 100%, 50%);
+  background-color: hsl(var(--hue), 100%, 0%);
   border-radius: 5px;
   padding: 5px 10px;
-  color: #000000;
+  color: #fdfdfd;
   outline: none;
 }
 
@@ -63,7 +63,7 @@ body.wrong {
 
 .btn.correct {
   --hue: var(--hue-correct);
-  color: black;
+  color: #f0ff1a;
 }
 
 .btn.wrong {
@@ -97,7 +97,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #DFDFDF;
+    background-color: #ffffff;
 }
 
 .side-links {
@@ -132,10 +132,10 @@ html {
 
 .side-link-text {
   margin-left: 10px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .side-link-icon {
   color: white;
-  font-size: 30px;
+  font-size: 50px;
 }
